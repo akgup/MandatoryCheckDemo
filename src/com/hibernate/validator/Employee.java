@@ -1,12 +1,14 @@
 package com.hibernate.validator;
+import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 
 
 public class Employee {
 	
 	
-	@NotNull
+	@NotEmpty
 	private String firtName;
+
 	private String lastName;
 	@NotNull
 	private String designation;
